@@ -14,11 +14,11 @@ var app = angular
           controller: 'MainCtrl',
         })
         .when('/services', {
-          templateUrl: 'main.html',
+          templateUrl: 'services.html',
           controller: 'ServicesCtrl',
         })
         .when('/contact', {
-          templateUrl: 'main.html',
+          templateUrl: 'contact.html',
           controller: 'ContactCtrl',
         })
         .otherwise({ redirectTo: '/main' });
